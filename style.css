@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    cursor: url(./r1.png), auto;
+    animation: cursor 0.4s ease-in-out infinite;
+}
+
+@keyframes cursor {
+
+    0%,
+    100% {
+        cursor: url(./r1.png), auto;
+    }
+
+    16.7% {
+        cursor: url(./r2.png), auto;
+    }
+
+    33.4% {
+        cursor: url(./r3.png), auto;
+    }
+
+    50.1% {
+        cursor: url(./r4.png), auto;
+    }
+
+    66.8% {
+        cursor: url(./r5.png), auto;
+    }
+
+    83.5% {
+        cursor: url(./r6.png), auto;
+    }
+}
