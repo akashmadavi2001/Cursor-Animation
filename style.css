@@ -12,7 +12,6 @@ body {
 }
 
 @keyframes cursor {
-
     0%,
     100% {
         cursor: url(./r1.png), auto;
